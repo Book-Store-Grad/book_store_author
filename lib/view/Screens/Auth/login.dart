@@ -99,7 +99,7 @@ class Login extends StatelessWidget {
                       state is LoginLoadingState
                           ? const Center(
                               child: CircularProgressIndicator(
-                                color: Colors.blue,
+                                color: Colors.red,
                               ),
                             )
                           : DefaultButton(
